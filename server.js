@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const FINNHUB_SECRET = "cvs1tp9r01qp7viu9k5g"; // Your Finnhub webhook secret
+const FINNHUB_SECRET = "cvs1tp9r01qp7viu9k5g";  cvs1tp9r01qp7viu9k5g
 
 app.use(express.json());
 
