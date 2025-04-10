@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const FINNHUB_SECRET = "cvs1tp9r01qp7viu9k5g";  cvs1tp9r01qp7viu9k5g
+const FINNHUB_SECRET = process.env.FINNHUB_SECRET;
 
 app.use(express.json());
 
